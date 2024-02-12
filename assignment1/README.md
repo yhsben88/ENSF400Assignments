@@ -1,6 +1,5 @@
 Docker file creates volume of the app directory.
 
-The instruction of in Docker file VOLUME /serverdata will create the volume inside the container.
+Originally, I used dockerdesktop to create volume with name "serverdata".
 
-To run the image, use the following command:
-docker run -it -v servervol:/serverdata assignment1:latest
+The instruction of in Docker file VOLUME /serverdata will create the volume inside the container.
