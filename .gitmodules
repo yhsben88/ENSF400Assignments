@@ -1,0 +1,6 @@
+[submodule "assignment2/assignment2/ensf400-lab5-ansible"]
+	path = assignment2/assignment2/ensf400-lab5-ansible
+	url = https://github.com/yhsben88/ensf400-lab5-ansible.git
+[submodule "assignment2/linked_repo"]
+	path = assignment2/linked_repo
+	url = https://github.com/yhsben88/ensf400-lab5-ansible.git
