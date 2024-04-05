@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx-ingress
+  label:
+    name: nginx
+    version: "1.14.2"
+spec: 
+  rules:
+  - host: 192.168.58.2  # minikube ip; different ip on each minikube instance, maybe???
+    http:
+      paths:
+      - path: /
+        backend: 
+          service:
+            name: nginx-svc
+            port:
+              number: 80
